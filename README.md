@@ -102,3 +102,5 @@ Wire each into `async keywordSearch(query)` and `async semanticSearch(query)` re
 ## Interpretation
 
 Semantic search performs better overall than keyword search. It achieves an MRR of 0.67 and Recall@10 of 1.00, while keyword search achieves 0.30 and 0.60. Keyword search performs better for queries like "redis or memcached for caching" and "sql or nosql for a new product" because they contain specific technical keywords. Semantic search performs better for queries that describe problems, symptoms, and meanings rather than exact words. A team should still keep keyword search because it performs well for exact technical terms, and combining both systems can provide better search results.
+## Assignment Status
+Completed MRR and Recall@10 evaluation using JavaScript.
